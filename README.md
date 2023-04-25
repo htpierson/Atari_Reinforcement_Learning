@@ -24,7 +24,7 @@ For the DQN agent, we focused on measuring its average episode reward and episod
 ![Duration_vs_epis_lr0 0001_tau0 0005](https://user-images.githubusercontent.com/94200328/234167622-563ff5e6-f038-4055-a53a-cf74f9982fa3.png)
 ![rewards_vs_epis_lr0 0001_tau0 0005](https://user-images.githubusercontent.com/94200328/234167650-4e7e4399-b7ae-439e-942b-f72117b3f9d4.png)
 
-## Results
+## Conclusions
 Through our experiments, we found that both A2C and DQN were able to learn effective policies for playing Galaxian, but had different strengths and weaknesses. The A2C agent was able to steadily increase its average episode return over the course of 2000 updates, but struggled to avoid collisions with the aliens. The DQN agent, on the other hand, was able to achieve a consistent level of success in the game, but may have had difficulty improving its performance over time.
 
 Overall, our experiments highlight the potential of reinforcement learning algorithms for playing Atari games like Galaxian, and suggest that further research is needed to better understand the strengths and limitations of different algorithms under different settings.
