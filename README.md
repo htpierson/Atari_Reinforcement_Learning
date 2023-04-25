@@ -1,5 +1,5 @@
 # Galaxian Reinforcement Learning
-This project is a reinforcement learning based AI that plays the Atari game Galaxian
+This project is a reinforcement learning based AI that plays the Atari game Galaxian. Below we can see a video of the Advantage Actor Critic (A2C) agent playing the game after being trained
 
 
 
