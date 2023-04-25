@@ -13,7 +13,16 @@ Through this project, we hope to demonstrate the capabilities and limitations of
 ## Experiments
 In this project, we investigated the effectiveness of two reinforcement learning algorithms, A2C and DQN, for playing the classic arcade game Galaxian. Our goal was to evaluate the agents' ability to learn to play the game at a high level without being explicitly programmed to do so, and to compare the performance of the two algorithms under different settings.
 
-For the A2C agent, we focused on measuring its average episode return, actor and critic losses, and entropy, as well as its ability to avoid collisions with the aliens. For the DQN agent, we focused on measuring its average episode reward and episode duration, as well as its ability to complete the game quickly.
+For the A2C agent, we focused on measuring its average episode return, actor and critic losses, and entropy, as well as its ability to avoid collisions with the aliens.
+
+![a2c_nenvs500_neps2000_spu128_clr0 00001_alr0 0005](https://user-images.githubusercontent.com/94200328/234167564-7585fc73-c6e6-41eb-a22a-2bdd307d7efa.png)
+
+
+For the DQN agent, we focused on measuring its average episode reward and episode duration, as well as its ability to complete the game quickly.
+
+![Duration_vs_epis_lr0 0001_tau0 0005](https://user-images.githubusercontent.com/94200328/234167622-563ff5e6-f038-4055-a53a-cf74f9982fa3.png)
+![rewards_vs_epis_lr0 0001_tau0 0005](https://user-images.githubusercontent.com/94200328/234167650-4e7e4399-b7ae-439e-942b-f72117b3f9d4.png)
+
 
 Through our experiments, we found that both A2C and DQN were able to learn effective policies for playing Galaxian, but had different strengths and weaknesses. The A2C agent was able to steadily increase its average episode return over the course of 2000 updates, but struggled to avoid collisions with the aliens. The DQN agent, on the other hand, was able to achieve a consistent level of success in the game, but may have had difficulty improving its performance over time.
 
