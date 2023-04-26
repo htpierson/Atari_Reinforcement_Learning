@@ -33,7 +33,7 @@ Through our experiments, I found that both A2C and DQN were able to learn effect
 Overall, our experiments highlight the potential of reinforcement learning algorithms for playing Atari games like Galaxian, and suggest that further research is needed to better understand the strengths and limitations of different algorithms under different settings.
 
 ## Think you can do better than the model??
-<img width="650" img height='600' alt="Screen Shot 2023-04-25 at 11 48 07 PM" src="https://user-images.githubusercontent.com/94200328/234465214-6cd8bbfb-f7e9-4129-9d92-8f8e2e1a70cc.png">
+<img width="650" img height='600' alt="Screen Shot 2023-04-25 at 11 58 44 PM" src="https://user-images.githubusercontent.com/94200328/234466446-f166490c-bce4-4e89-97d8-3633b2b35af0.png">
 
 
 Use the play.py file to play galaxian yourself and see if you can do better than the model can
