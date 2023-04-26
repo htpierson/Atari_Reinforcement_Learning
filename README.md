@@ -37,11 +37,12 @@ Use the play.py file to play galaxian yourself and see if you can do better than
 
 ## Important Notes
 To use that Atari games you will need to install ALE-py from gymnasium as well as the AutoROM and the roms to play the games with. To do this you can use the code below
-'''
+```
 pip install 'gymnasium[atari]'
-'''
-'''
+```
+```
 pip install 'gymnasium[accept-rom-license]'
-'''
-Please note that unless you specify a location for the accept-rom-license install the roms will download in the directory you are currently in. To install the roms in a specific location you can go to this like for more details https://github.com/Farama-Foundation/AutoROM.
+```
+Please note that unless you specify a location for the accept-rom-license install the roms will download in the directory you are currently in. To install the roms in a specific location you can go to this like for more details [AutoROM](https://github.com/Farama-Foundation/AutoROM).
+
 Also note that I needed to have the quotes around gymnasium[atari] and gymnasium[accept-rom-license] for this to work in terminal on a macbook, but the quotes may not be needed if not using terminal.
