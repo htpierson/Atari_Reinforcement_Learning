@@ -35,6 +35,8 @@ Overall, our experiments highlight the potential of reinforcement learning algor
 ## Think you can do better than the model??
 Use the play.py file to play galaxian yourself and see if you can do better than the model can
 
+<img width="420" alt="Screen Shot 2023-04-25 at 11 04 01 PM" src="https://user-images.githubusercontent.com/94200328/234457277-bc52754c-d491-4ec7-a49f-587b41a29ef6.png">
+
 ## Important Notes
 To use that Atari games you will need to install ALE-py from gymnasium as well as the AutoROM and the roms to play the games with. To do this you can use the code below
 ```
