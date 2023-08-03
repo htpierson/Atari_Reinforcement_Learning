@@ -46,6 +46,6 @@ pip install 'gymnasium[atari]'
 ```
 pip install 'gymnasium[accept-rom-license]'
 ```
-Please note that unless you specify a location for the accept-rom-license command the roms will download in the directory you are currently in. To install the roms in a specific location you can go to this like for more details [AutoROM](https://github.com/Farama-Foundation/AutoROM).
+Please note that unless you specify a location for the accept-rom-license command the roms will download in the directory you are currently in. To install the roms in a specific location you can go to this link for more details [AutoROM](https://github.com/Farama-Foundation/AutoROM).
 
 Also note that I needed to have the quotes around gymnasium[atari] and gymnasium[accept-rom-license] for this to work in terminal on a macbook, but the quotes may not be needed if not using terminal.
